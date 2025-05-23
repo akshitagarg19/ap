@@ -11,7 +11,7 @@ load_dotenv()
 app = FastAPI()
 
 # Add session middleware
-app.add_middleware(SessionMiddleware, secret_key="u3hw8vhs83hfs8fhwfjkwhfj34hflj93")
+app.add_middleware(SessionMiddleware, secret_key="J7v9#kL!2wXz@5mNpRqTaVz8YbUfGh1E")
 
 # Load values from .env
 GOOGLE_CLIENT_ID = os.getenv("GOOGLE_CLIENT_ID")
