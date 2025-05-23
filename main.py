@@ -74,3 +74,4 @@ def get_id_token(request: Request):
     if not id_token:
         return JSONResponse(content={"error": "Not logged in"}, status_code=401)
     return JSONResponse(content={"id_token": id_token})
+print("Google Client ID:", GOOGLE_CLIENT_ID)
